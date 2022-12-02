@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  dotnet.s3.api:
+    build:
+      context: .
+      dockerfile: DotNet.S3.Api/Dockerfile
