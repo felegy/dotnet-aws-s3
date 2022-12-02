@@ -27,8 +27,8 @@ namespace DotNet.S3
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services
-				.AddSingleton<IAppConfiguration, AppConfiguration>()
-				.AddSwaggerGen()
+				.AddSingleton<IAppConfiguration>(new AppConfiguration(Configuration))
+                .AddSwaggerGen()
 				.AddControllers();
 		}
 
@@ -40,9 +40,12 @@ namespace DotNet.S3
 				app.UseDeveloperExceptionPage();
 			}
 
-			app.UseHttpsRedirection();
+            if (env.IsProduction())
+            {
+                app.UseHttpsRedirection();
+            }
 
-			app.UseRouting();
+            app.UseRouting();
 
 			app.UseAuthorization();
 

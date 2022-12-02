@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  dotnet.s3:
+    build:
+      context: .
+      dockerfile: DotNet.S3/Dockerfile

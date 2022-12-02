@@ -2,10 +2,10 @@
 {
 	public interface IAppConfiguration
 	{
-		string AwsAccessKey { get; set; }
-		string AwsSecretAccessKey { get; set; }
-		string AwsSessionToken { get; set; }
-		string BucketName { get; set; }
-		string Region { get; set; }
+		string AwsAccessKey { get; }
+		string AwsSecretAccessKey { get; }
+		string AwsSessionToken { get; }
+		string BucketName { get; }
+		string Region { get; }
 	}
 }
