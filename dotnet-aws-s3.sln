@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.S3.Services", "DotNet.S3.Services\DotNet.S3.Services.csproj", "{E4EBECED-CCC7-47F5-92FE-0016BB313A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.S3.Common", "DotNet.S3.Common\DotNet.S3.Common.csproj", "{6303F67C-25D2-422F-B657-890F3D0289CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.S3", "DotNet.S3\DotNet.S3.csproj", "{F0BD0A66-5853-40F4-B106-078AF58F6508}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4EBECED-CCC7-47F5-92FE-0016BB313A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EBECED-CCC7-47F5-92FE-0016BB313A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EBECED-CCC7-47F5-92FE-0016BB313A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EBECED-CCC7-47F5-92FE-0016BB313A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6303F67C-25D2-422F-B657-890F3D0289CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6303F67C-25D2-422F-B657-890F3D0289CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6303F67C-25D2-422F-B657-890F3D0289CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6303F67C-25D2-422F-B657-890F3D0289CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0BD0A66-5853-40F4-B106-078AF58F6508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0BD0A66-5853-40F4-B106-078AF58F6508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0BD0A66-5853-40F4-B106-078AF58F6508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0BD0A66-5853-40F4-B106-078AF58F6508}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
